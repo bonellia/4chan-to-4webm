@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Open in 4webm",
+    "description": "Opens current 4chan thread in 4webm.",
+    "version": "1.0",
+    "homepage_url": "https://github.com/bonellia/4chan-to-4webm",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "48": "icons/4webm-icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ]
+}
